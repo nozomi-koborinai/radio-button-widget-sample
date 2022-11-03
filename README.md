@@ -1,17 +1,5 @@
-# radio_sample
+# radio-button-widget-sample（from Flutter）
 
-A new Flutter project.
+モダンなラジオボタンパッケージが見つからないので、ボタンデザインのラジオボタンを自作してみる
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# radio-button-widget-sample
+<img width="333" alt="スクリーンショット 2022-11-03 18 18 04" src="https://user-images.githubusercontent.com/39579511/199685139-761b652f-e48f-48ed-81f1-ce005688a2ec.png">
