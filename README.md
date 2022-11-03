@@ -2,4 +2,4 @@
 
 モダンなラジオボタンパッケージが見つからないので、ボタンデザインのラジオボタンを自作してみる
 
-<img width="333" alt="スクリーンショット 2022-11-03 18 18 04" src="https://user-images.githubusercontent.com/39579511/199685139-761b652f-e48f-48ed-81f1-ce005688a2ec.png">
+![custom_radio](https://user-images.githubusercontent.com/39579511/199734225-a3453100-7970-4475-bd09-8476ccb63acf.gif)
