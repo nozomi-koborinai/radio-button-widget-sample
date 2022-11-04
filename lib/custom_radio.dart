@@ -33,13 +33,13 @@ class CustomRadio extends StatefulWidget {
   const CustomRadio(
       {super.key,
       required this.firstSelectRadio,
-      required this.selectedChanged});
+      required this.selectionChanged});
 
   /// ラジオボタン選択の初期値
   final GenderEnum firstSelectRadio;
 
   /// ラジオボタン選択変更時
-  final Function(GenderEnum selectedGender) selectedChanged;
+  final Function(GenderEnum selectedGender) selectionChanged;
 
   @override
   State<CustomRadio> createState() => _CustomRadioState();
@@ -209,7 +209,7 @@ class _CustomRadioState extends State<CustomRadio> {
       manForeColor = Colors.white;
       isManIconVisible = true;
     });
-    widget.selectedChanged(GenderEnum.man);
+    widget.selectionChanged(GenderEnum.man);
   }
 
   /// 女性ラジオボタン選択時
@@ -220,7 +220,7 @@ class _CustomRadioState extends State<CustomRadio> {
       womanForeColor = Colors.white;
       isWoManIconVisible = true;
     });
-    widget.selectedChanged(GenderEnum.woman);
+    widget.selectionChanged(GenderEnum.woman);
   }
 
   /// 未選択ラジオボタン選択時
@@ -231,6 +231,6 @@ class _CustomRadioState extends State<CustomRadio> {
       noSelectForeColor = Colors.white;
       isNoSelectIconVisible = true;
     });
-    widget.selectedChanged(GenderEnum.noSelect);
+    widget.selectionChanged(GenderEnum.noSelect);
   }
 }

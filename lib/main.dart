@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   /// ラジオボタン選択変更時
   /// CustomRadioウィジェット.選択変更時イベントに対するコールバック関数
-  void selectedChanged(GenderEnum selectedGender) {
+  void selectionChanged(GenderEnum selectedGender) {
     // ラジオボタンの選択値をこのページの変数にセットするだけ
     this.selectedGender = selectedGender;
   }
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             CustomRadio(
               firstSelectRadio: GenderEnum.man, // 初期選択
-              selectedChanged: selectedChanged, // ラジオボタンの選択変更時に実行されるメソッド
+              selectionChanged: selectionChanged, // ラジオボタンの選択変更時に実行されるメソッド
             ),
             Padding(
               padding: const EdgeInsets.only(top: 25),
